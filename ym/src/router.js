@@ -69,7 +69,7 @@ export default class ERouter extends React.Component{
                                     <Route path="/charts/line" component={Line} />
                                     <Route path="/permission" component={Permission} />
                                     <Redirect to="/home" />
-                                    {/* <Route component={NoMatch} /> */}
+                                    <Route component={NoMatch} />
                                 </Switch>
                             </Admin>         
                         } />
